@@ -134,10 +134,18 @@ ul {
     margin: 20px 0;
 }
 
-.result-list {
+.name-list {
     margin-top: 15px;
     color: #05DF05;
     font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #e55720;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
 }
@@ -159,4 +167,17 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Botão reiniciar */
+.container_botao {
+    width: 100%;
+    border-radius: 16px;
+    background-color: #a1a1a1;
+    border: none;
+    color: #0f0f0f;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
 }
